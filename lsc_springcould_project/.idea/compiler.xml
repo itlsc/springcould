@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="eurekaServer3000" />
+        <module name="zuulServer" />
+        <module name="order" />
+        <module name="eurekaServer301" />
+        <module name="serverConfig" />
+        <module name="eurekaServer302" />
+        <module name="goods1" />
+        <module name="goods" />
+        <module name="eurekaServer300" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaServer3000" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eurekaServer300" options="-parameters" />
+      <module name="eurekaServer3000" options="-parameters" />
+      <module name="eurekaServer301" options="-parameters" />
+      <module name="eurekaServer302" options="-parameters" />
+      <module name="goods" options="-parameters" />
+      <module name="goods1" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="serverConfig" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="zuulServer" options="-parameters" />
+    </option>
+  </component>
+</project>

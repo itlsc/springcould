@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: testConfigServer
+      label: master
+      uri: http://localhost:8080/
